@@ -1,4 +1,4 @@
-﻿/* написать программу, которая из имеющегося массива строк
+﻿/* Написать программу, которая из имеющегося массива строк
 формирует массив из строк, длина которых меньше либо
 равна 3 символа. Первоначальный массив можно ввести
  с клавиатуры, либо задать на старте выполнения алгоритма.
@@ -10,6 +10,7 @@ var inputArray = FillStringsArray();
 Console.WriteLine
 ("Массив исходных строк:\t");
 PrintArray(inputArray);
+Console.WriteLine();
 
 var outputArray = FindLessEqualThree(inputArray);
 Console.WriteLine
